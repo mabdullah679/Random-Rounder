@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="randomRounder.css">
+</head>
+<body>
+    
+    <h1 id="title">Random Number Rounder Upper/Downer</h1>
+    <h4 class="explanation">This is a simple number randomizer that ... well randomizes numbers between 1 and 100</h4>
+    <h4 class="explanation">as well as displaying the result and logging it into the console</h4>
+
+    <div id="textNumberOfRandomizations">
+        <h4 class="textNumberOfRandomizations">Number Of Randomizations:</h4>
+    </div>
+
+    <div id="randomButtonDiv">   
+        <button id="randomButton" class="randomButton" onclick="randomizeButton()">Randomize</button>
+    </div>
+
+    <div id="resetButtonDiv">   
+        <button id="resetButton" class="resetButton" onclick="resetButton()">Reset</button>
+    </div>
+
+    <div id="numOfIterationsInputDiv">
+        <input id="numOfIterationsInput" type="text"/>
+    </div>
+    <div id="printOuts"></div>
+    <script src="randomRounder.js" defer></script>
+</body>
+</html>
